@@ -1,0 +1,58 @@
+﻿@model CodeVein.Models.WeaponsDetails
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>WeaponsDetails</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.WeaponId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WeaponId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WeaponName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WeaponName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WeaponType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WeaponType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WeaponStats)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WeaponStats)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WeaponLocation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WeaponLocation)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

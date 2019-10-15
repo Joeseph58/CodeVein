@@ -1,0 +1,72 @@
+﻿@model CodeVein.Models.BuildDetails
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>BuildDetails</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BuildId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuildId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuildName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuildName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuildCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuildCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuildWeapon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuildWeapon)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuildSkills)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuildSkills)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuildDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuildDescription)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

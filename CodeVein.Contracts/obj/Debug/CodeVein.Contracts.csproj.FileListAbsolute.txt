@@ -1,0 +1,6 @@
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Contracts\bin\Debug\CodeVein.Contracts.dll
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Contracts\bin\Debug\CodeVein.Contracts.pdb
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Contracts\obj\Debug\CodeVein.Contracts.csprojAssemblyReference.cache
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Contracts\obj\Debug\CodeVein.Contracts.csproj.CoreCompileInputs.cache
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Contracts\obj\Debug\CodeVein.Contracts.dll
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Contracts\obj\Debug\CodeVein.Contracts.pdb

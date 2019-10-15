@@ -1,0 +1,57 @@
+﻿@model IEnumerable<CodeVein.Models.BloodCodeListItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BloodCodeId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BcName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BcSkills)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BcDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BcLocation)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BloodCodeId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BcName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BcSkills)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BcDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BcLocation)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

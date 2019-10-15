@@ -1,0 +1,58 @@
+﻿@model CodeVein.Models.BloodCodeDetails
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BloodCodeDetails</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BloodCodeId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BloodCodeId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BcName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BcName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BcSkills)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BcSkills)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BcDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BcDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BcLocation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BcLocation)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
