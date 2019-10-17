@@ -55,5 +55,11 @@
     <Compile Include="WeaponsEdit.cs" />
     <Compile Include="WeaponsListItem.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeVein.Data\CodeVein.Data.csproj">
+      <Project>{5F905E48-2BC6-484E-BFE3-4DE628C77391}</Project>
+      <Name>CodeVein.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

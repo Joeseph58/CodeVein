@@ -7,14 +7,17 @@ using System.Threading.Tasks;
 
 namespace CodeVein.Data
 {
-    public enum BuildStyle { add_Fighter, Ranger, Caster }
+    public enum BuildStyle { Fighter, Ranger, Caster }
+
+
+
     public class BloodCode
     {
-        public Guid OwnerId;
 
         [Key]
 
         public int BloodCodeId { get; set; }
+        public Guid OwnerId { get; set; }
         [Required]
         public BuildStyle BuildStyle { get; set; }
         [Required]

@@ -1,4 +1,5 @@
-﻿using CodeVein.Models;
+﻿using CodeVein.Data;
+using CodeVein.Models;
 using CodeVein.Services;
 using Microsoft.AspNet.Identity;
 using System;
@@ -127,5 +128,15 @@ namespace CodeVein_Web_MVC.Controllers
             return service;
         }
 
+
+        public ActionResult GetBuildStyle(string id)
+        {
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new BuildService(userId);
+            var model = service.GetBuildStyle( (BuildStyle)Enum.Parse(typeof(BuildStyle), id));
+
+            return View(model);
+
+        }
     }
 }

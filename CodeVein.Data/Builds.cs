@@ -12,6 +12,7 @@ namespace CodeVein.Data
         [Key]
         public int BuildId { get; set; }
         [Required]
+        
         public BuildStyle BuildStyle { get; set; }
         [Required]
         public string BuildName { get; set; }

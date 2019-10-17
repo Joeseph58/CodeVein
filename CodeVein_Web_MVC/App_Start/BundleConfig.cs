@@ -23,8 +23,8 @@ namespace CodeVein_Web_MVC
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/bootstrap-code1.css",
+                      "~/Content/Site.css"));
         }
     }
 }

@@ -182,10 +182,18 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-code1.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Img\codevein-caster.jpg" />
+    <Content Include="Content\Img\codevein-fighter.jpg" />
+    <Content Include="Content\Img\codevein-ranger.jpg" />
+    <Content Include="Content\Img\CodeveinWeapons.jpg" />
+    <Content Include="Content\Img\codevein_header.png" />
+    <Content Include="Content\Img\code_vein_Builds.jpg" />
+    <Content Include="Content\Img\ss-110 fighter.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -252,6 +260,7 @@
     <Content Include="Views\Weapon\Details.cshtml" />
     <Content Include="Views\Weapon\Edit.cshtml" />
     <Content Include="Views\Weapon\Delete.cshtml" />
+    <Content Include="Views\Build\GetBuildStyle.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

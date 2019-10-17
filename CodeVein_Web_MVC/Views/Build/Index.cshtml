@@ -18,6 +18,9 @@
             @Html.DisplayNameFor(model => model.BuildName)
         </th>
         <th>
+            @Html.DisplayNameFor(model => model.BuildStyle)
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.BuildCode)
         </th>
         <th>
@@ -53,9 +56,9 @@
             @Html.DisplayFor(modelItem => item.BuildDescription)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            @Html.ActionLink("Edit", "Edit", new { id=item.BuildId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.BuildId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.BuildId })
         </td>
     </tr>
 }

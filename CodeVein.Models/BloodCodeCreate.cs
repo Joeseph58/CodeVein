@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CodeVein.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CodeVein.Models
 {
-    public enum BuildStyle { add_Fighter, Ranger, Caster }
+    //public enum BuildStyle { add_Fighter, Ranger, Caster }
 
     public class BloodCodeCreate
     {

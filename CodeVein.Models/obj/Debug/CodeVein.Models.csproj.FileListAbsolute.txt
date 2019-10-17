@@ -4,3 +4,13 @@ C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\obj\Debug\CodeVein
 C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\obj\Debug\CodeVein.Models.csproj.CoreCompileInputs.cache
 C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\obj\Debug\CodeVein.Models.dll
 C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\obj\Debug\CodeVein.Models.pdb
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\bin\Debug\CodeVein.Data.dll
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\bin\Debug\EntityFramework.dll
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\bin\Debug\CodeVein.Data.pdb
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\bin\Debug\CodeVein.Data.dll.config
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\bin\Debug\EntityFramework.xml
+C:\Eleven Fifty Academy\1_Blue Badge\CodeVein\CodeVein.Models\obj\Debug\CodeVein.Models.csproj.CopyComplete

@@ -16,7 +16,7 @@ namespace CodeVein.Services
         {
             _userId = userId;
         }
-       
+
 
         public bool CreateBuild(BuildCreate model)
         {
@@ -25,6 +25,7 @@ namespace CodeVein.Services
             {
                 OwnerId = _userId,  //<----need to be bloodcodeid?
                 BuildName = model.BuildName,
+                BuildStyle = model.BuildStyle,
                 BuildCode = model.BuildCode,
                 BuildWeapon = model.BuildWeapon,
                 BuildSkills = model.BuildSkills,
@@ -56,9 +57,12 @@ namespace CodeVein.Services
                                 {
                                     BuildId = e.BuildId,
                                     BuildName = e.BuildName,
+                                    BuildStyle = e.BuildStyle,
+                                    BuildCode = e.BuildCode,
+                                    BuildWeapon = e.BuildWeapon,
                                     BuildSkills = e.BuildSkills,
                                     BuildDescription = e.BuildDescription,
-                                    
+
                                 }
                         );
 
@@ -79,6 +83,7 @@ namespace CodeVein.Services
                     {
                         BuildId = entity.BuildId,
                         BuildName = entity.BuildName,
+                        BuildStyle = entity.BuildStyle,
                         BuildCode = entity.BuildCode,
                         BuildWeapon = entity.BuildWeapon,
                         BuildSkills = entity.BuildSkills,
@@ -122,7 +127,32 @@ namespace CodeVein.Services
             }
         }
 
+        public IEnumerable<BuildDetails> GetBuildStyle(BuildStyle BuildStyle)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entitys =
+                    ctx
+                        .Builds
+                        .Where(e => e.BuildStyle == BuildStyle && e.OwnerId == _userId)
+                        .Select(entity =>
 
+                    new BuildDetails
+                    {
+                        BuildId = entity.BuildId,
+                        BuildName = entity.BuildName,
+                        BuildStyle = entity.BuildStyle,
+                        BuildCode = entity.BuildCode,
+                        BuildWeapon = entity.BuildWeapon,
+                        BuildSkills = entity.BuildSkills,
+                        BuildDescription = entity.BuildDescription,
+                    }
+                        );
+                return entitys.ToList();
+            }
+
+
+        }
 
 
     }

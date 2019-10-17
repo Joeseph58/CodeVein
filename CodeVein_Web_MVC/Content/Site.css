@@ -1,10 +1,12 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -22,3 +24,122 @@ select,
 textarea {
     max-width: 280px;
 }
+
+
+.bgimage1 {
+    width: 100%;
+    height: 500px;
+    background: url('https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiStfawgaHlAhVMM6wKHU5pCAwQjRx6BAgBEAQ&url=https%3A%2F%2Fframedsc.github.io%2FGameGuides%2Fcodevein.htm&psig=AOvVaw0ATz5P_3bGYxSsL4fsN49i&ust=1571323216298667');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+    .bgimage h5 {
+        color: white;
+        text-shadow: 2px 2px #333;
+    }
+
+
+.jumbotron {
+    color: white;
+    background-image: url("Img/codevein_header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 20vh;
+}
+
+.display-4 {
+   color: black
+}
+
+#name a {
+    display: inline-block; /* add this line */
+    background-image: url(Img/codevein-fighter.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 370px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+    #name a:hover {
+        background-image: url(Img/codevein-fighter.jpg);
+        height: 200px;
+        width: 370px;
+        margin: auto;
+        margin-bottom: 5px;
+        cursor: pointer;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+    }
+
+#name a {
+    border: solid 1px red;
+    background-color: orange;
+    z-index: 999;
+}
+
+#name1 a {
+    display: inline-block; /* add this line */
+    background-image: url(Img/codevein-ranger.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 370px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+    #name1 a:hover {
+        background-image: url(Img/codevein-ranger.jpg);
+        height: 200px;
+        width: 370px;
+        margin: auto;
+        margin-bottom: 5px;
+        cursor: pointer;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+    }
+
+#name1 a {
+    border: solid 1px green;
+    background-color: lawngreen;
+    z-index: 999;
+}
+
+#name2 a {
+    display: inline-block; /* add this line */
+    background-image: url(Img/codevein-caster.jpg);
+    background-size: 100%;
+    height: 200px;
+    width: 370px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+    #name2 a:hover {
+        background-image: url(Img/codevein-caster.jpg);
+        height: 200px;
+        width: 370px;
+        margin: auto;
+        margin-bottom: 5px;
+        cursor: pointer;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        -moz-transition: .5s;
+        -webkit-transition: .5s;
+    }
+
+#name2 a {
+    border: solid 1px Blue;
+    background-color: cadetblue;
+    z-index: 999;
+}
+
+

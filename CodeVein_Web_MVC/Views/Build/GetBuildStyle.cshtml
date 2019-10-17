@@ -1,0 +1,66 @@
+﻿@model IEnumerable<CodeVein.Models.BuildDetails>
+
+@{
+    ViewBag.Title = "GetBuildStyle";
+}
+
+<h2>GetBuildStyle</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BuildId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BuildName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BuildStyle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BuildCode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BuildWeapon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BuildSkills)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BuildDescription)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BuildId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BuildName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BuildCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BuildWeapon)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BuildSkills)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BuildDescription)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>
