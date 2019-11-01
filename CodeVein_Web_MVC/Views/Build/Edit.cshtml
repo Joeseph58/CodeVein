@@ -34,7 +34,7 @@
     <div class="form-group">
         @Html.LabelFor(model => model.BuildStyle, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
-            @Html.DropDownList("BuildStyle", new SelectList(ViewBag.Builds, "BuildStyle", "Style"), null, new { @class = "form-control" })
+            @Html.EnumDropDownListFor(model => model.BuildStyle, "select type", new { @class = "form-control" })
             @Html.ValidationMessageFor(model => model.BuildStyle, "", new { @class = "text-danger" })
         </div>
     </div>

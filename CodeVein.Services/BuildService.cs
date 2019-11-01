@@ -105,6 +105,7 @@ namespace CodeVein.Services
 
                 entity.BuildName = model.BuildName;
                 entity.BuildSkills = model.BuildSkills;
+                entity.BuildStyle = model.BuildStyle;
                 entity.ModifiedUtc = DateTimeOffset.UtcNow;
 
                 return ctx.SaveChanges() == 1;
