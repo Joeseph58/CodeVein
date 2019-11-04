@@ -54,6 +54,13 @@ textarea {
 .display-4 {
    color: black
 }
+.table {
+    background-color: gainsboro;
+}
+
+a {
+    color: darkred;
+}
 
 #name a {
     display: inline-block; /* add this line */
