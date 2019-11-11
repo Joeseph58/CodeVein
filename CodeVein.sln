@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeVein.Services", "CodeVe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeVein.Contracts", "CodeVein.Contracts\CodeVein.Contracts.csproj", "{485F04E2-3EEE-4FC6-8E5D-A5BDBFDE5903}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeVein.WebAPI", "CodeVein.WebAPI\CodeVein.WebAPI.csproj", "{9A72A065-39B7-4CF6-AC63-FB71DB5555CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{485F04E2-3EEE-4FC6-8E5D-A5BDBFDE5903}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{485F04E2-3EEE-4FC6-8E5D-A5BDBFDE5903}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{485F04E2-3EEE-4FC6-8E5D-A5BDBFDE5903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A72A065-39B7-4CF6-AC63-FB71DB5555CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A72A065-39B7-4CF6-AC63-FB71DB5555CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A72A065-39B7-4CF6-AC63-FB71DB5555CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A72A065-39B7-4CF6-AC63-FB71DB5555CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

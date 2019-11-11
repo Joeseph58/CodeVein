@@ -13,6 +13,11 @@ using CodeVein.Data;
 
 namespace CodeVein_Web_MVC.Controllers
 {
+
+#if !DEBUG
+     [RequireHttps]
+
+#endif
     [Authorize]
     public class AccountController : Controller
     {
